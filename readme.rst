@@ -6,6 +6,23 @@ This is the starter webapp for Tutorial ci-normal01
 
 It is purposefully broken.
 
+***********
+Team Member
+***********
+Jimmi Lin - Acknowledge
+Evelyn Dai
+
+*****************
+Coding convention
+*****************
+comment above the link that you fix with initial and date
+
+change log will be recorded in txt with following example format.
+
+Feature: link # fixed
+Comment: (optional)
+Date: Jan 28,2016
+
 **************
 Intended Usage
 **************
