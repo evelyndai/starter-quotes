@@ -12,16 +12,29 @@ Team Member
 Jimmi Lin - Acknowledge
 Evelyn Dai
 
+***************
+Work Allocation
+***************
+Master: Jimmi
+
+work:
+    Jimmi:#1,3,5,7
+    Evelyn:#2.4.6.8
 *****************
 Coding convention
 *****************
 comment above the link that you fix with initial and date
 
-change log will be recorded in txt with following example format.
+change log will be recorded in txt.
 
-Feature: link # fixed
-Comment: (optional)
-Date: Jan 28,2016
+Both change log and comment will follow example format below.
+
+/**
+ * Feature 1: first page
+ * Author: Jimmi Lin
+ * Date: Jan 28, 2016
+ * -----------------------------------
+ */
 
 **************
 Intended Usage
