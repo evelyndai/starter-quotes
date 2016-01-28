@@ -1,11 +1,9 @@
 <?php
 
 /**
- * Our homepage. Show a table of all the author pictures. Clicking on one should show their quote.
- * Our quotes model has been autoloaded, because we use it everywhere.
- * 
- * controllers/Welcome.php
- *
+ * Feature 1: first page
+ * author: Jimmi Lin
+ * Sate: Jan 28, 2016
  * ------------------------------------------------------------------------
  */
 class First extends Application {
