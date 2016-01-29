@@ -41,11 +41,12 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+#feature 2
 $route['last'] = 'last/welcome';
-
-
+#feature 3
 $route['sleep'] = 'First/zzz';
-
+#feature 5
+$route['show/(\d+)'] = 'First/gimme/$1';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
