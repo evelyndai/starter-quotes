@@ -10,7 +10,13 @@
 |
 */
 
-
+$hook['pre_controller'] = array(
+                                //'class'    => 'MyClass',
+                                //'function' => 'Myfunction',
+                                'filename' => 'autoload.php',
+                                'filepath' => 'application/config',
+                                //'params'   => array('beer', 'wine', 'snacks')
+                                );
 
 /* End of file hooks.php */
 /* Location: ./application/config/hooks.php */

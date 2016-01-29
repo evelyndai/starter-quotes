@@ -49,6 +49,15 @@ $route['sleep'] = 'First/zzz';
 $route['lock/(:any)/(:any)'] = 'welcome/shucks';
 #feature 5
 $route['show/(\d+)'] = 'First/gimme/$1';
+#feature 6 
+$route['dunno'] = function() {
+    $source = './data/cat.jpg'; // an image you provide
+    // set the mime type for that image
+    header("Content-type: image/jpeg"); 
+    header('Content-Disposition: inline');
+    readfile($source); // dish it
+    die(); // and we don't have to go any further
+};
 #feature 7
 $route['(^[a-zA-Z]{4})/bingo'] = 'Bingo';
 #feature 8

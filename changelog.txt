@@ -3,14 +3,32 @@
 *******************************
 
 /**
- * Feature 2: last page
+ * Feature 8
+ * Author: Evelyn Dai
+ * Date: Jan 28, 2016
+ * -----------------------------------
+ */
+/**
+ * Feature 6
+ * Author: Evelyn Dai
+ * Date: Jan 29, 2016
+ * -----------------------------------
+ */
+/**
+ * Feature 4
+ * Author: Evelyn Dai
+ * Date: Jan 28, 2016
+ * -----------------------------------
+ */
+/**
+ * Feature 2
  * Author: Evelyn Dai
  * Date: Jan 28, 2016
  * -----------------------------------
  */
  
 /**
- * Feature 1: first page
+ * Feature 1
  * Author: Jimmi Lin
  * Date: Jan 28, 2016
  * -----------------------------------
