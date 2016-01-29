@@ -9,6 +9,14 @@
  * Author: Jimmi Lin
  * Date: Jan 28, 2016
  * -----------------------------------
+ * Feature 3: sleep
+ * Author: Jimmi Lin
+ * Date: Jan 28, 2016
+ * -----------------------------------
+ * Feature 5: show
+ * Author: Jimmi Lin
+ * Date: Jan 28, 2016
+ * -----------------------------------
  */
 class First extends Application {
 
@@ -35,6 +43,15 @@ class First extends Application {
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
 		// pick Bob Monkhouse
 		$source = $this->quotes->get('1');
+                $this->data = array_merge($this->data, $source);
+                
+		$this->render();
+	}
+        function gimme($id)
+	{
+		$this->data['pagebody'] = 'justone';	// this is the view we want shown
+		// pick specified character
+		$source = $this->quotes->get($id);
                 $this->data = array_merge($this->data, $source);
                 
 		$this->render();
