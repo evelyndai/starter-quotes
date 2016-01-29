@@ -40,8 +40,12 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
+<<<<<<< HEAD
 $route['last'] = 'last/welcome';
 
+=======
+$route['sleep'] = 'First/zzz';
+>>>>>>> origin/develop
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
