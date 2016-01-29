@@ -40,6 +40,7 @@ class Welcome extends Application {
 		$this->render();
 	}
         
+        
         function shucks(){
                 $this->data['pagebody'] = 'justone';	// show justone view
 		
