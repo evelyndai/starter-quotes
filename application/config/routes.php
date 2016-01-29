@@ -47,6 +47,9 @@ $route['last'] = 'last/welcome';
 $route['sleep'] = 'First/zzz';
 #feature 5
 $route['show/(\d+)'] = 'First/gimme/$1';
-
+#feature 5
+$route['show/(\d+)'] = 'First/gimme/$1';
+#feature 7
+$route['(^[a-zA-Z]{4})/bingo'] = 'Bingo';
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
