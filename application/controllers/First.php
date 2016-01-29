@@ -5,6 +5,10 @@
  * author: Jimmi Lin
  * Sate: Jan 28, 2016
  * ------------------------------------------------------------------------
+ * Feature 3: sleep
+ * Author: Jimmi Lin
+ * Date: Jan 28, 2016
+ * -----------------------------------
  */
 class First extends Application {
 
@@ -20,21 +24,21 @@ class First extends Application {
 	function index()
 	{
 		$this->data['pagebody'] = 'justone';	// this is the view we want shown
-		// build the list of authors, to pass on to our view
+		// pick the first quote
 		$source = $this->quotes->first();
                 $this->data = array_merge($this->data, $source);
+               
+		$this->render();
+	}
+        function zzz()
+	{
+		$this->data['pagebody'] = 'justone';	// this is the view we want shown
+		// pick Bob Monkhouse
+		$source = $this->quotes->get('1');
+                $this->data = array_merge($this->data, $source);
                 
-//		$authors = array();
-//		foreach ($source as $record)
-//		{
-//			$authors[] = array('who' => $record['who'], 'mug' => $record['mug'], 'href' => $record['where']);
-//		}
-//		$this->data['authors'] = $authors;
-//
 		$this->render();
 	}
 
 }
 
-/* End of file Welcome.php */
-/* Location: application/controllers/Welcome.php */
