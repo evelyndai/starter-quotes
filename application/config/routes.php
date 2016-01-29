@@ -45,10 +45,14 @@ $route['404_override'] = '';
 $route['last'] = 'last/welcome';
 #feature 3
 $route['sleep'] = 'First/zzz';
-#feature 5
-$route['show/(\d+)'] = 'First/gimme/$1';
 #feature 4
 $route['lock/(:any)/(:any)'] = 'welcome/shucks';
+#feature 5
+$route['show/(\d+)'] = 'First/gimme/$1';
+#feature 7
+$route['(^[a-zA-Z]{4})/bingo'] = 'Bingo';
+
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
