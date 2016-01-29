@@ -51,6 +51,8 @@ $route['lock/(:any)/(:any)'] = 'welcome/shucks';
 $route['show/(\d+)'] = 'First/gimme/$1';
 #feature 7
 $route['(^[a-zA-Z]{4})/bingo'] = 'Bingo';
+#feature 8
+$route['comp(\d{4})/wisdom'] = 'Wise/bingo';
 
 
 
